@@ -1,0 +1,41 @@
+{
+  "app": {
+    "name": "Angular演示",
+    "description": "angular app demo"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "仪表盘",
+          "icon": "anticon anticon-dashboard",
+          "children": [
+            {
+              "text": "仪表盘-演示1",
+              "link": "/dashboard"
+            }
+          ]
+        },
+        {
+          "text": "Node.js中文社区",
+          "icon": "anticon anticon-cloud",
+          "link": "/node"
+        }
+      ]
+    },
+    {
+      "text": "Alain",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": []
+    }
+  ]
+}
